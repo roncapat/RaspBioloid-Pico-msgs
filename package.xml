@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pico_msgs</name>
+  <version>0.0.1</version>
+  <description>The UPS pico ROS messages and services</description>
+
+  <maintainer email="roncapat@gmail.com">Patrick Roncagliolo</maintainer>
+  <maintainer email="alessio.deluca.iic96d@gmail.com">Alessio De Luca</maintainer>
+  <maintainer email="marco.lapolla5@gmail.com">Marco Lapolla</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="roncapat@gmail.com">Patrick Roncagliolo</author>
+  <author email="alessio.deluca.iic96d@gmail.com">Alessio De Luca</author>
+  <author email="marco.lapolla5@gmail.com">Marco Lapolla</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
+  <export/>
+</package>

@@ -1,0 +1,8 @@
+---
+string status
+uint8 temperature
+string power_source
+string charge_status
+float32 ext_voltage
+float32 batt_voltage
+float32 rpi_voltage

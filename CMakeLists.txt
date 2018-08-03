@@ -8,14 +8,11 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
   FILES
-  config.msg
-  voltage_lvls.msg
-  batt_status.msg
 )
 
 add_service_files(
   FILES
-  MopiInfo.srv
+  PicoInfo.srv
 )
 
 generate_messages(

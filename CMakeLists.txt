@@ -9,11 +9,12 @@ find_package(catkin REQUIRED COMPONENTS
 add_service_files(
   FILES
   PicoInfo.srv
+  PicoLowLevel.srv
 )
 
 generate_messages(
   DEPENDENCIES
-  std_msgs  # Or other packages containing msgs
+  std_msgs
 )
 
 catkin_package(
